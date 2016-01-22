@@ -1,0 +1,74 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+.flex-stretch {
+	flex: 1 1 auto;
+}
+
+.button-icon {
+	display: flex;
+	cursor: pointer;
+	justify-content: center;
+	align-items: center;
+	width: 40px;
+	height: 100%;
+	box-sizing: border-box;
+}
+
+.button-icon img {
+	height: 16px;
+	width: 16px;
+}
+
+#topbar {
+	display: flex;
+	height: 40px;
+	background-color: #ddd;
+	align-items: center;
+	border-bottom: 1px solid #bbb;
+}
+
+#logo {
+	display: flex;
+	flex: 0 0 auto;
+	height: 100%;
+	align-items: center;
+	cursor: pointer;
+}
+
+#logo-name {
+	font-size: 14px;
+}
+
+#user {
+	flex: 0 0 auto;
+	border-left: 1px solid #bbb;
+}
+
+#nav {
+	display: flex;
+	height: 40px;
+	background-color: #eee;
+	align-items: center;
+	border-bottom: 1px solid #ccc;
+}
+
+#breadcrumb {
+	flex: 1 1 auto;
+}
+
+#search {
+	background-color: #f8f8f8;
+}
+
+#search-input {
+	border: none;
+	padding: 0;
+	height: 100%;
+	background-color: #f8f8f8;
+	flex: 0 0 auto;
+	border-left: 1px solid #ccc;
+}
